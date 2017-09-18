@@ -11,6 +11,6 @@ function display() {
 var f1 = function(cb) {
     cb();
 }
-
+f1(display);
 f1(display);
 f1(wishes);
