@@ -1,0 +1,56 @@
+Javascript is dynamically typed hence we can know the type only after declaration
+Types:
+Number
+Boolean
+String
+Undefined
+Primitive(stored in stack)
+
+Referneced types(Stored in heap) :
+Object
+Number
+Boolean
+String
+Null
+
+NaN is of type Number
+Infinity, pos infinity, neg infinity all are from number
+
+From ES6 const is available so as to ensure that the type cannot be changed again
+
+gets an erro assignment to constant variable this works with latest js Engine
+
+
+FUNCTIONS:
+if used as function fn_name :Function declaration
+if var fn_name=function() :Function expression
+
+function expression are not hoisted
+
+hoisting
+
+All declarations are located and identifiers are known by the compiler
+ITs called such because it does the restructuring of variables
+
+Only variable names are hoisted not the values
+so
+console.log(x);
+var x=1000;
+returns as undefined
+
+function hoisting and variable hoisting
+'use strict' to avoid hoisting
+
+restricting parameters: check using typeof
+if no parametres are passed undefined will be passed and hence gets executed
+if nothing is returned, undefined will be returned
+
+No block scoping in Javascript which allows variables to be accessed out of loops
+let helps in this case, define variables as let and it'll ensure block scoping
+hence its a standard use only after es2015/ES6
+
+use--> for(let item in Object) to traverse the object list
+literal style:name value pair 
+
+Process is the global object in a JSEngine(like Nodejs Engine) and not available in browser environment
+have to set value using a setter method to set hte value as global
