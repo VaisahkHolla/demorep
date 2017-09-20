@@ -4,9 +4,9 @@ Number
 Boolean
 String
 Undefined
-Primitive(stored in stack)
+Primitive(stored in stack) fixed memory size
 
-Referneced types(Stored in heap) :
+Referneced types(Stored in heap) : variable memory size
 Object
 Number
 Boolean
@@ -54,3 +54,11 @@ literal style:name value pair
 
 Process is the global object in a JSEngine(like Nodejs Engine) and not available in browser environment
 have to set value using a setter method to set hte value as global
+
+Callback functions fn inside fn(as parameters)
+Asynchronous
+Event driven lang
+
+
+for array comparision(in general referenced data types) custom equals function is to be used. == and === 
+can be used only with primitive datatypes
