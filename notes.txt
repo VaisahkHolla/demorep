@@ -78,3 +78,16 @@ prototype is a property of Object class
 Onlh when object is created using function constructor we can directly access prototype
 if created using literal style, use __proto__ to access the prototype property
 Refer oo6.js
+
+
+new doesn't copy the prototype and hence fails while the object.create creates a prototype hence useful
+var proj={seclvl:2};
+var sproj=object.create(proj);
+console.log(proj.__proto__isPrototypeof())
+refere 007.js
+
+use function expression as they cannot be hoisted
+throw to raise an exception
+Named function expression: Useful in debugging. Follow this! 
+var fnName=function myfnName(parameters){}
+
