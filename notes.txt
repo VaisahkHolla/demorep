@@ -62,3 +62,8 @@ Event driven lang
 
 for array comparision(in general referenced data types) custom equals function is to be used. == and === 
 can be used only with primitive datatypes
+
+every call back function should return something, if not returned, its treated as if "null" 
+or "undefined" or "Nan" is returned which is treated as false
+
+ 
