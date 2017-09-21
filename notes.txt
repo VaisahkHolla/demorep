@@ -80,7 +80,7 @@ if created using literal style, use __proto__ to access the prototype property
 Refer oo6.js
 
 
-new doesn't copy the prototype and hence fails while the object.create creates a prototype hence useful
+new doesn't copy the prototype and hence fails, while the object.create creates a prototype hence useful
 var proj={seclvl:2};
 var sproj=object.create(proj);
 console.log(proj.__proto__isPrototypeof())
@@ -91,3 +91,11 @@ throw to raise an exception
 Named function expression: Useful in debugging. Follow this! 
 var fnName=function myfnName(parameters){}
 
+context binding with "this"
+default context is either process or window... if new is used, then a local object in context of the class of the object is created
+
+iify/self invoked fn
+
+let fn_name=(function(){
+
+})(); function invoked here.. if not used then never invoked

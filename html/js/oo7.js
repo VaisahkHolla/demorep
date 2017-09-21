@@ -18,7 +18,8 @@ let Calculator = {
 let Calculator1 = Object.create(Calculator);
 let Calculator2 = Object.create(Calculator);
 //both objects are using the same prototype so change in prototype will be reflected in other object too
-//the callstack is different for each of them giving different results
+//the callstack is different for each of them giving different results i.e. different refernces but same prototype
+//if cal1===cal2 then returns false as addresses are different
 
 Calculator1.add(56);
 Calculator1.subtract(46);
