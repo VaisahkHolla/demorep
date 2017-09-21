@@ -18,6 +18,7 @@ let Calculator = {
     }
     //run with this and without this keyword
     //literal style where value can be defined directly
+
 Calculator.add(56);
 Calculator.sub(20);
 Calculator.mul(2);

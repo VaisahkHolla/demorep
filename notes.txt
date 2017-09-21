@@ -66,4 +66,15 @@ can be used only with primitive datatypes
 every call back function should return something, if not returned, its treated as if "null" 
 or "undefined" or "Nan" is returned which is treated as false
 
- 
+------ObjectOriented-----
+
+ABstraction - makes sure that behaviour is consistent across all the implementations 
+reduce coupling between components(classes)
+interface proviodes an outerview of the class so that coupling is low
+No abstraction,interface because js is dynamically typed
+
+Every function has a special object called as prototype
+prototype is a property of Object class
+Onlh when object is created using function constructor we can directly access prototype
+if created using literal style, use __proto__ to access the prototype property
+Refer oo6.js
