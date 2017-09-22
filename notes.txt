@@ -79,6 +79,7 @@ Onlh when object is created using function constructor we can directly access pr
 if created using literal style, use __proto__ to access the prototype property
 Refer oo6.js
 
+class is also a function so it can be assigned to a variable 
 
 new doesn't copy the prototype and hence fails, while the object.create creates a prototype hence useful
 var proj={seclvl:2};
@@ -94,8 +95,14 @@ var fnName=function myfnName(parameters){}
 context binding with "this"
 default context is either process or window... if new is used, then a local object in context of the class of the object is created
 
-iify/self invoked fn
+iify/self invoked fn helps in modularity
 
 let fn_name=(function(){
 
 })(); function invoked here.. if not used then never invoked
+
+
+Properties should be private and it should be done using getters and setters only!!
+
+this.id=public
+let id private
