@@ -1,0 +1,59 @@
+BOM DOM
+
+window.top window.left
+window.innerWidth window.outerWidth
+
+window.open("url",'_blank') open in new tab
+
+setTimeout(fn(){
+
+},timedelay in ms);
+setTimeout used to make asynchronous
+clearTimeout(timer_name); clear the timer hence the fn inside setTimeout won't be exe'ed
+callback handler and callstack
+setInterval similar to setTimeout but sets a exe after aparticular interval 
+clearInterval similar to clearTimeout clears the interval time
+
+confirm
+prompt
+
+
+location Object:
+location.href
+location.host
+location.port
+location.protocol
+location.assign(url)
+
+--DOM--
+window is parent and document is child
+html5 allows for semantics that is meaningful
+<article></article> available in html5 -> Article are independent document
+gEBI
+getElemntsByTagName
+getElemntsByClassName
+getAttribute(attribute)
+setAttribute(attribute,value)
+
+document.querySelector('can be anything, tag,id,class') returns only first matching value
+document.querySelectorAll() returns all matching value
+
+
+::Events::
+Keyboard,window,mouse focus,html5 events,touch,
+
+>>Event Obj props
+bubbles
+cancelable
+currentTarget
+defaultPrevented
+detail
+eventPhase
+preventDefault()
+stopImmediatePropogation()
+stopPropogation()
+target
+trusted
+type
+
+EventListeners: Can add multiple events for a particular action
