@@ -57,3 +57,6 @@ trusted
 type
 
 EventListeners: Can add multiple events for a particular action
+
+SCRIPT ALWAYS IN THE BODY SECTION as some functions may take some tags which won't be loaded if script in head
+
