@@ -95,7 +95,7 @@ var fnName=function myfnName(parameters){}
 context binding with "this"
 default context is either process or window... if new is used, then a local object in context of the class of the object is created
 
-iify/self invoked fn helps in modularity
+iife/self invoked fn helps in modularity
 
 let fn_name=(function(){
 

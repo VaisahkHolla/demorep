@@ -1,0 +1,22 @@
+Use arrow function efficiently and better used in asynchronous
+Initialize a parameter with default value available from es2015
+rest parameters: passing any number of arguments
+array instance
+BABLE Transpiler
+Traceur Transpiler
+samp2.js
+
+for( of ), destructuring in samp3
+
+
+Module loaders:Manager and Employee
+Cannot extend more than one class
+
+module.exports={Manager,Employee...}
+const Xyz=require(./filename).Manager;
+
+samp4 has singleton in es6 way
+
+module.exports=new Class(); This exports an instance of the class Class hence limiting the user to access
+to only one object
+

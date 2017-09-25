@@ -1,0 +1,8 @@
+class Observer {
+    subscribe() {
+
+    }
+    publish() {
+
+    }
+}
