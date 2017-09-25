@@ -18,5 +18,17 @@ const Xyz=require(./filename).Manager;
 samp4 has singleton in es6 way
 
 module.exports=new Class(); This exports an instance of the class Class hence limiting the user to access
-to only one object
+to only one object and not providing constructor etc.
+
+singleton is one of the important design pattern
+
+
+MVC-Model controls data
+Controller handles flow
+View handles display
+Observor pattern used here to notify changes in model to view 
+
+require statement can be added anywhere
+
+
 
