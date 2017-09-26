@@ -4,7 +4,7 @@ const Model = require('./model');
 class View {
     constructor(elements = []) {
         this.elements = elements;
-        this.model = new Model();
+        this.model = Model;
         this.controller = new Controller();
 
     }
@@ -28,9 +28,13 @@ class View {
     }
     render(newData) {
         this.elements.nameList.innerHTML = "";
-        for (data of newData) {
-            this.elements.nameList.appendChild(document.createElement('option')
-                .appendChild(document.createTextNode(data)))
+        //clears the entire select menu, to retain them, we have to store the values somewhere and then 
+        //recover the stored values first
+        //or change only the removed option and render the DOM
+        for (let data of newData) {
+            var option = document.createElement('option');
+            option.text = data;
+            this.elements.nameList.add(option);
         }
     }
 }

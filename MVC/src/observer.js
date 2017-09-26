@@ -7,7 +7,7 @@ class Observer {
         //cb is a callback function
     }
     publish(data) {
-        for (subscriber of this.subscribers) {
+        for (let subscriber of this.subscribers) {
             subscriber(data);
         }
     }

@@ -23,4 +23,22 @@ npm install --save-dev babel-loader^6.4.1
 
 npm install --save-dev babel-preset-es2015@^6.24.0
 
-adds dependencies in package.json(default name)
+adds dependencies in package.json(default name) genreated by npm init
+
+By default the port is 8080 and if anything is using the same port, error is displayed
+
+use debugger instead of alert to debug
+
+______AJAX_______
+Asynchronous Js And XML
+By Microsoft
+Promise or callback can be used for Asynchronous exe
+Update content in the page without refreshing ppr partial page rendering
+XMLHttpRequest-Asynchronous web call
+ActiveXObject for IE8 and older
+
+httpRequest.open('GET','url',true); true makes call Asynchronous
+httpRequest.send(null) send data to server
+
+https://www.tutorialspoint.com/ajax/what_is_xmlhttprequest.htm
+

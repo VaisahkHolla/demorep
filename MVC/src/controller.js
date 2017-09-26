@@ -2,7 +2,7 @@ const Model = require("./model");
 
 class Controller {
     constructor() {
-        this.model = new Model();
+        this.model = Model;
     }
     addData(newData) {
         this.model.add(newData);
