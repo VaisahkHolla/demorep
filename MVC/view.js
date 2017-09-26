@@ -1,5 +1,5 @@
-const Controller = require('C:\demorep\MVC\controller');
-const Model = require('C:\demorep\MVC\model');
+const Controller = require('./controller');
+const Model = require('./model');
 
 class View {
     constructor(elements = []) {

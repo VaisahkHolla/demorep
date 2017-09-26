@@ -17,7 +17,18 @@
         </select>
     <button id="addButton">Add</button>
     <button id="removeButton">Remove</button>
-    <script src=app.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.41/system.js"></script>
+
+    <script>
+        System.config({
+            meta: {
+                format: 'cjs'
+            }
+        });
+        System.import('app.js');
+    </script>
+
+
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-const View = require('C:\demorep\MVC\view');
+const View = require('./view');
 const elements = {
     nameList: document.querySelector('#nameList'),
     addButton: document.querySelector('#addButton'),

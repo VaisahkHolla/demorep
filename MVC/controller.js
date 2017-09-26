@@ -1,4 +1,4 @@
-const Model = require("C:\demorep\MVC\model");
+const Model = require("./model");
 
 class Controller {
     constructor() {

@@ -1,4 +1,4 @@
-const Observer = require('C:\demorep\MVC\observer');
+const Observer = require('./observer');
 
 class Model {
     constructor(data = []) {
