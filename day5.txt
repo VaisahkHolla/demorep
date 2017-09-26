@@ -1,0 +1,26 @@
+Webpack based on npm to bundling 
+grunt older stuffs
+
+Webpack+Babel
+Packaging tool is npm similar to maven for java,maketool for unix etc
+downloads module from npmregistry(npmjs.com)
+
+proxy and permission isues if webpack not installed
+
+npm -g install webpack
+g meaning global
+
+npm init 
+to create package json
+Keep on hitting enter...
+
+npm install --save-dev
+--save-dev identified as dev dependency
+Mind the spelling, please!
+npm install --save-dev babel-core^6.24.0
+
+npm install --save-dev babel-loader^6.4.1
+
+npm install --save-dev babel-preset-es2015@^6.24.0
+
+adds dependencies in package.json(default name)
