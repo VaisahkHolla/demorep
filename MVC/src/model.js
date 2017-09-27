@@ -19,10 +19,11 @@ class Model {
         this.data.splice(item, 1);
         this.modelRemoved.publish(this.data);
     }
-    callback() {
+    callback = () => {
         if (this.xhr.readyState === 4 && this.xhr.status === 200) {
             this.data = this.xhr.responseText;
         }
     }
+
 }
 module.exports = new Model();
