@@ -1,0 +1,10 @@
+JSON instead of XML as simple text representation
+Lightweight
+Subset of JS
+
+JSON-Parse and stringify functions
+
+Promise and callback for asynchronous
+Observers
+
+Keyword Asynch
