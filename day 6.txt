@@ -5,6 +5,18 @@ Subset of JS
 JSON-Parse and stringify functions
 
 Promise and callback for asynchronous
-Observers
+Observers,event emitters
 
 Keyword Asynch
+
+
+Promise:
+ES2015 available as libray before that
+Defered Object:Object representing pending result
+E commerce applications use this effectively
+Readability and seamless integration
+promise in client side requires ES2015 or we should use polyfill
+
+then() and catch()-then is for success callback and catch is for failure callback
+
+
