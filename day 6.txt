@@ -5,7 +5,8 @@ Subset of JS
 JSON-Parse and stringify functions
 
 Promise and callback for asynchronous
-Observers,event emitters
+Observers,
+event emitters also a publisher-subscriber model
 
 Keyword Asynch
 
@@ -26,3 +27,5 @@ OS-operating system
 HTTP-
 HTTPS
 Crypto
+
+containerless deployment,asynchronous,single threaded

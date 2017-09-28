@@ -1,0 +1,16 @@
+CORS Cross Oigin Resource Sharing
+
+Same origin policy for security and AJAX uses that enforcing the origin to be Same
+Cross origin policy ensures that client request coming from trusted source are processed and any others are discarded
+
+preflight request-browser comm's server gives client credentials
+preflight response-server to browser reporting services provided
+
+You can see the working under Network/Headers in F12 option
+USE DEBUGGERS!!!! It helps you get to know the working 
+
+Payment Gateways
+For providing services
+
+
+
