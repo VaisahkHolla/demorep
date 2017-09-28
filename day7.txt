@@ -35,3 +35,5 @@ Data stored as files in mongoDB
 
 
 Decorator pattern To an object it attaches all those features refer order.js
+Representational State Transfer-Write business fn and expose to client 
+adv-principle of resource
