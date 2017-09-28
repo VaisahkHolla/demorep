@@ -84,11 +84,11 @@ class Model {
         let xhr = new XMLHttpRequest();
         if ("withCredentials" in xhr) {
             // XHR for Chrome/Firefox/Opera/Safari.
-            xhr.open("Get", "http://localhost:9090", true);
+            xhr.open("Get", "http://localhost:9001/getNames", true);
         } else if (typeof XDomainRequest != "undefined") {
             // XDomainRequest for IE.
             xhr = new XDomainRequest();
-            xhr.open("Get", "http://localhost:9090");
+            xhr.open("Get", "http://localhost:9001/getNames");
         } else {
             // CORS not supported.
             xhr = null;

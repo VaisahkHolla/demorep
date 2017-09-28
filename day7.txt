@@ -12,5 +12,26 @@ USE DEBUGGERS!!!! It helps you get to know the working
 Payment Gateways
 For providing services
 
+For every js httprequest httpheader should be added refere model.js 
+
+Express is a framework for nodeJs
+fullfledged web apps
+connect the middleware
+routers
+
+Driver for connecting to mongoDB is mongoose
+
+npm init--pkg.json will be created
+npm install --save express@^4.15.3
+npm install --save express-session@^1.15.3
+npm install --save body-parser@~1.0.0
+npm install --save cookie-parser@~1.0.1
+npm install --save cors
 
 
+Debuggers when used, The page loads and then debugging mode is initiated 
+
+Data stored as files in mongoDB
+
+
+Decorator pattern To an object it attaches all those features refer order.js
