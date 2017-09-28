@@ -19,4 +19,10 @@ promise in client side requires ES2015 or we should use polyfill
 
 then() and catch()-then is for success callback and catch is for failure callback
 
+Node Js modules:
 
+FS-file system
+OS-operating system 
+HTTP-
+HTTPS
+Crypto
