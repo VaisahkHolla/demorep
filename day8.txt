@@ -1,0 +1,56 @@
+See the bookmarks in browser
+SPA-Single Page Application
+Multiple templates available on client side which will be loaded as and when needed
+MVVM-Model View View Model
+MVP-Model View Presenter
+MV*-Model View Anything
+
+MVVM-2 way data binding, updating view if model changes and vice versa, Angular uses this
+React doesn't do this so we use
+
+JSX-js and Html
+Html and js to be together
+Virtual DOM
+Rendered elmenets are copied and a copy is kept so that it can be used,update only the changes to the dom(the copy)
+and update only those in the original dom
+In memory representation
+Isomorphic Rendering-both client and server side
+
+React+Angular is also used for quicker Rendering
+
+React deals with View 
+connecting view and controller through react is also possible. Why need for connection is SPA
+
+2 way data binding is risky so we are not following MVVM
+following FLUX pattern
+
+updating dom is expensive
+with virtual dom, we compare dom's current state to desired new state... Update the dom in the most eff way
+without virtual dom, we just blindly update dom using new state
+
+shouldComponentUpdate
+
+npm install --save react@^0.14.8
+npm install --save react-dom@^0.14.8
+npm install --save-dev babel-preset-react@^6.23.0
+npm install: This will install all the files in package.json not in the folder
+
+Component based framework:The Component has a well defined state and behavior
+
+NodeJS:const React=requrie('react');const Component=requrie('react').Component;
+module.exports=App;
+
+ES2015: import React,{Component} from 'react';
+export default class App extends Component{
+
+}
+
+Props: Looks like HTML attributes but immutable
+this.props.username
+State: Holds mutable state
+this.props.username
+
+Data flow from parent to child
+Event flow from child to parent
+All tags hsould be neclosed in a single parent tag(can be any)
+If component is not binded, it will be treated as un

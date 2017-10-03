@@ -14,7 +14,7 @@ For providing services
 
 For every js httprequest httpheader should be added refere model.js 
 
-Express is a framework for nodeJs
+Express is a serverside mvc or MVR(model view router) framework for nodeJs
 fullfledged web apps
 connect the middleware
 routers
@@ -37,3 +37,5 @@ Data stored as files in mongoDB
 Decorator pattern To an object it attaches all those features refer order.js
 Representational State Transfer-Write business fn and expose to client 
 adv-principle of resource
+
+default port for mongoDB is 27017
