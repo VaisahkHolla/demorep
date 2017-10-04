@@ -54,3 +54,5 @@ Data flow from parent to child
 Event flow from child to parent
 All tags hsould be neclosed in a single parent tag(can be any)
 If component is not binded, it will be treated as un
+inside render function the logic for functionality is done
+presentation components are stateless

@@ -1,0 +1,4 @@
+Develop the supporting components first and then build the root afterwards
+Always prefer promise for sending data from your server as most apis return promise
+Axion
+API key helps us access the api
