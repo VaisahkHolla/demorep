@@ -2,3 +2,32 @@ Develop the supporting components first and then build the root afterwards
 Always prefer promise for sending data from your server as most apis return promise
 Axion
 API key helps us access the api
+Destructuring
+
+WORK ON REAL TIME PROJECTS UNLESS YOU WANT TO LAG BEHIND!!
+
+
+React,React-DOM,React Router modules
+React:Content 
+React-DOM:DOM
+Router:Navigation in page used for SPA
+--------------------------------------------------------------------
+React Router
+Nested views map to nested routes
+To nav. page
+
+Route:Declaratively map a route
+DefaultRoute:for URL of "/" like "index.html"
+NotFoundRoute:Client side 404
+Redirect:Redirect to another route
+Browserhistory to help navigate from pages
+npm install --save react-router@^2.8.1
+
+------FLUX------
+Design Pattern and Redux implemnts this
+Principle-> Unidirectional data flow
+Action->Dispatcher->Store->React View-
+^                                     |
+|_____________________________________|
+
+

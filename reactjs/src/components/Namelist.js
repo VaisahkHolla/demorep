@@ -19,6 +19,7 @@ export default class NameList extends React.Component {
    
    this.setState({list:[...this.state.list, name]});
    //using that destructuring to update the value in list
+   //explicit conversion to array as setstate changes array to bject and map won't work afterwards
   }
 handleRemove(index) {
 

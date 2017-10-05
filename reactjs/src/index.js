@@ -19,5 +19,9 @@ import MVC from './components/mvc';
 import NameList from './components/Namelist';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import {Router,browserHistory} from 'react-router';
+import routes from './routes';
 
-ReactDOM.render( < NameList / > , document.querySelector('.container'));
+
+//ReactDOM.render( < Router history={browserHistory} routes={routes} / > , document.querySelector('.container'));
+ReactDOM.render( < SearchApp / > , document.querySelector('.container'));

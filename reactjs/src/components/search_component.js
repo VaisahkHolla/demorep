@@ -8,9 +8,8 @@ export default class SearchComponent extends Component {
     }
     render() {
         return ( <div> < label htmlFor = "search" >Search the web
-             <input id = "search"
-            value = { this.state.search }
-            onChange = { event => this.onInputChange(event.target.value) }/>  
+             <input id = "search"/>
+            <button onClick = { event => this.onInputChange(search.value) }>Search</button>  
             </label > 
             </div> 
         )
