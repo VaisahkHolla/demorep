@@ -1,0 +1,13 @@
+npm install --save react-redux@^4.4.8
+npm install --save redux@^3.6.0
+npm install --save redux-promise@^0.5.3
+npm install --save axios@latest//instead of xmlhttprequest
+
+
+why not state instead of props
+because redux is taking care of state
+Hence only props is available
+
+REdux always sends state as props to react so we receive props and not state
+
+lookup reactredux for the implementation and learn there

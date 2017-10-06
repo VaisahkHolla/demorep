@@ -1,27 +1,31 @@
-// import App from './components/app';
-// import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
 
-// ReactDOM.render( < App / > , document.querySelector('.container'));
-// The above is for app.js
-
-
-// import App from './components/app';
-// import SearchApp from './components/search_app';
-// import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-
-// ReactDOM.render( < SearchApp / > , document.querySelector('.container'));
-
-import App from './components/app';
+import React from 'react';
+import ReactDOM  from 'react-dom';
+//import FirstComponent from './components/firstcomponent';
+//import SearchComponent from './components/search_component'
 import SearchApp from './components/search_app';
-import MVC from './components/mvc';
-import NameList from './components/Namelist';
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import {Router,browserHistory} from 'react-router';
-import routes from './routes';
+import {Provider} from 'react-redux';
+
+import stores from './stores/searchStore';
+
+import ReduxPromise from 'redux-promise';
+//resolving promise can use thunk also instead of this
+import {createStore,applyMiddleware} from 'redux';
 
 
-//ReactDOM.render( < Router history={browserHistory} routes={routes} / > , document.querySelector('.container'));
-ReactDOM.render( < SearchApp / > , document.querySelector('.container'));
+
+const createStoreWithMiddleware=
+	  applyMiddleware(ReduxPromise)(createStore);
+
+// Connect Store With The Reducer
+const store=createStoreWithMiddleware(stores);
+
+// Register Views With The Stores
+ReactDOM.render(<Provider store={store}><SearchApp /></Provider>,
+				document.querySelector('.container'))
+//provider helps in bridging react and redux
+
+//ReactDOM.render(
+//				<SearchApp/>
+//				,
+//document.querySelector('.container'))

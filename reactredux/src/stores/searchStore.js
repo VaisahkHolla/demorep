@@ -1,6 +1,7 @@
 import {combineReducers} from 'redux';
 
 const results=(state=[],action)=>{
+    debugger;
     if(action.type === 'result'){
         return action.payload.data.items
     }

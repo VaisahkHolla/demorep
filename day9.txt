@@ -9,7 +9,7 @@ WORK ON REAL TIME PROJECTS UNLESS YOU WANT TO LAG BEHIND!!
 
 React,React-DOM,React Router modules
 React:Content 
-React-DOM:DOM
+React-DOM:DOM,interacting with Real DOM
 Router:Navigation in page used for SPA
 --------------------------------------------------------------------
 React Router
@@ -29,5 +29,6 @@ Principle-> Unidirectional data flow
 Action->Dispatcher->Store->React View-
 ^                                     |
 |_____________________________________|
+
 
 

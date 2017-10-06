@@ -5,6 +5,7 @@ const URL="https://www.googleapis.com/youtube/v3/search";
 const API_KEY='AIzaSyB37Fyiib70OwMhppZQHHuTtJ2NQDWjKws';
 
 const searchYoutube=(searchText)=>{
+    debugger;
     const params={
         part:'snippet',
         key:API_KEY,
@@ -12,7 +13,7 @@ const searchYoutube=(searchText)=>{
         type:'video'
     }
 const promise=axios.get(URL,{params});
-
+debugger;
     //closure
 return{
     type:'result',

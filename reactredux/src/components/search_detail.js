@@ -1,19 +1,22 @@
+
 import React from 'react';
-//if key and value are same then no need to give as detail:detail(name:value)
-//directly parsed by the JSON parser
-// if onl detail is used instead of {detail} we have to again parse it 
-const SearchDetail = ({ detail }) => {
-    const imageUrl = detail.snippet.thumbnails.default.url
-    return ( < div className = "video-list media" >
-        < div className = "media-left" > 
-        < img className = "media-object" src = { imageUrl }/> 
-        </div > 
-        <div className = "media-body" >
-        <div className = "media-heading" > { detail.snippet.title }
-        </div >
-        </div >
-        </div>
-    )
+
+const SearchDetail = ({video, onVideoSelect}) => {
+  const snippet = video.snippet;
+  const imageUrl = snippet.thumbnails.default.url;
+
+  return (
+    <li className="media" onClick={() => onVideoSelect(video)}>
+      <div className="media-left">
+        <a href="#">
+          <img className="media-object" src={imageUrl} alt="{title}" />
+        </a>
+      </div>
+      <div className="media-body">
+        <h5 className="media-heading">{snippet.title}</h5>
+      </div>
+    </li>
+  )
 }
 
-export default SearchDetail;
+export default SearchDetail

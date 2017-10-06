@@ -49,9 +49,12 @@ Props: Looks like HTML attributes but immutable
 this.props.username
 State: Holds mutable state
 this.props.username
+State will be recieved as props
+Child will recieve state as props from the parent 
 
 Data flow from parent to child
 Event flow from child to parent
+
 All tags hsould be neclosed in a single parent tag(can be any)
 If component is not binded, it will be treated as un
 inside render function the logic for functionality is done
